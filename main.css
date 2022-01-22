@@ -36,19 +36,19 @@
 }
 
 .club {
-  background-image: url("/club.png");
+  background-image: url("club.png");
 }
 
 .diamond {
-  background-image: url("/diamond.png");
+  background-image: url("diamond.png");
 }
 
 .heart {
-  background-image: url("/heart.png");
+  background-image: url("heart.png");
 }
 
 .spade {
-  background-image: url("/spade.png");
+  background-image: url("spade.png");
 }
 
 .selected {
