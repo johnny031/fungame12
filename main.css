@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0.6em;
+}
+
+.row {
+  display: flex;
+  padding: 0.6em 0;
+  width: 100%;
+}
+
+.btn {
+  padding: 0.2em 0.3em;
+}
+
+.card {
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 83%;
+  border: 1px solid black;
+  margin: 0 0.6em 0.6em 0;
+  padding: 0.5em 1.2em;
+  text-align: center;
+  text-indent: -1em;
+  border-radius: 0.2rem;
+}
+
+.diamond,
+.heart {
+  color: rgb(214, 5, 5);
+}
+
+.club {
+  background-image: url("/club.png");
+}
+
+.diamond {
+  background-image: url("/diamond.png");
+}
+
+.heart {
+  background-image: url("/heart.png");
+}
+
+.spade {
+  background-image: url("/spade.png");
+}
+
+.selected {
+  opacity: 0.08;
+}
+
+.hand_card_section {
+  display: none;
+}
+
+#cheat_btn {
+  opacity: 0;
+}
+
+.hand {
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  transform: scale(1, 1.4);
+  -webkit-transform: scale(1, 1.4); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.4); /* Firefox */
+  -ms-transform: scale(1, 1.4); /* IE 9 */
+  -o-transform: scale(1, 1.4); /* Opera */
+  border: 0.8px solid black;
+  padding: 0.4rem;
+  margin-right: 1rem;
+  min-width: 3.2rem;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke: 0.8px black; /* width and color */
+  background: linear-gradient(135deg, hsl(0, 0%, 64%), hsl(0, 0%, 24%));
+}
+
+.cheat {
+  display: none;
+  transform: translateX(-8px) scale(0.7, 0.9);
+  -webkit-transform: translateX(-8px) scale(0.7, 0.9);
+  -moz-transform: translateX(-8px) scale(0.7, 0.9);
+  -ms-transform: translateX(-8px) scale(0.7, 0.9);
+  -o-transform: translateX(-8px) scale(0.7, 0.9);
+  font-size: 0.5rem;
+  line-height: 20px;
+  width: 3.2rem;
+  min-width: 3.2rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 570px) {
+}
